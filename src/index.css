@@ -1,0 +1,18 @@
+@font-face {
+	font-family: "Poppins";
+	src: url("./fonts/Poppins-Regular.ttf") format("truetype");
+	font-family: "Poppins-bold";
+	src: url("./fonts/Poppins-Bold.ttf") format("truetype");
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: #f9faff;
+	font-family: "Poppins";
+}
+
+.text-blue {
+	color: #1d4ed8;
+}

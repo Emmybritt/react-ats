@@ -1,0 +1,150 @@
+.home__container {
+	display: grid;
+	grid-template-columns: 30% 70%;
+	gap: 3rem;
+	z-index: 1;
+	position: relative;
+}
+
+.second_card {
+	border-radius: 3rem;
+	margin-right: 3rem;
+	height: 75vh;
+	background-color: white;
+}
+
+.card__header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.card__container {
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	padding: 1.5rem;
+}
+
+.card__container div {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+	border-bottom: 1px solid #eeeeee;
+}
+.card__container div:last-child {
+	border-bottom: none;
+}
+
+.single__item {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.second__card-header {
+	display: flex;
+	justify-content: space-between;
+	padding: 0.8rem 2rem 0.9rem 2rem;
+	align-items: center;
+	border-bottom: 1px solid #f3f3f4;
+	overflow-x: auto;
+}
+
+.candidates__content {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 1.5rem;
+	border-bottom: 1px solid #eee;
+	padding: 2rem 0rem 2rem 0;
+}
+.candidates__content .candidate__photo {
+	color: #d0e1ff;
+	background-color: #edf4ff;
+	height: 56px;
+	width: 56px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 100%;
+	text-transform: uppercase;
+}
+
+.candidate__container {
+	background-color: white;
+	overflow-y: scroll;
+	height: 100%;
+	padding: 0.8rem 2rem 0.9rem 2rem;
+}
+
+.second__card-header .val {
+	display: flex;
+	gap: 1.3rem;
+}
+
+.second__card-header .val:last-child div {
+	border-right: 2px solid #f3f3f4;
+	padding-right: 13px;
+}
+.second__card-header .val:last-child div:last-child {
+	border-right: none;
+}
+
+.candidateName {
+	font-weight: 800;
+	font-size: 16px;
+}
+
+.candidateLocation {
+	font-weight: 600;
+	font-size: 14px;
+}
+
+.tags {
+	color: #1d4ed8;
+	gap: 1rem;
+	display: flex;
+	align-items: center;
+	margin-bottom: 1rem;
+}
+
+.keywords span {
+	background-color: #f3fafc;
+	color: #037092;
+	margin: 2rem 1rem 1rem 0rem;
+	padding: 0.3rem 1rem;
+	border-radius: 1rem;
+}
+
+span.label {
+	background-color: #f7f8fd;
+	color: #22215b;
+	font-size: small;
+	padding: 0.5rem;
+	border-radius: 50%;
+}
+
+@media screen and (max-width: 768px) {
+	body {
+		font-size: 16px;
+	}
+
+	.container {
+		padding: 10px;
+	}
+	.home__container {
+		display: flex;
+		flex-direction: column;
+	}
+	.second_card {
+		margin-right: 1rem;
+		height: 75vh;
+		background-color: white;
+		width: 100%;
+	}
+
+	.dropdown {
+		display: none;
+	}
+}

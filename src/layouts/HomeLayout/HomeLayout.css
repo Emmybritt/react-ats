@@ -1,0 +1,26 @@
+.layout__container {
+	display: flex;
+	position: relative;
+	height: 100vh;
+}
+.main {
+	width: 100%;
+	padding: 1.5rem 3rem 1.5rem 3rem;
+}
+
+.layout__container .layout__container-side {
+	width: 72px;
+	background-color: #ffffff;
+	box-shadow: 0 1px 17px rgba(0, 0, 0, 0.1);
+	padding-top: 3rem;
+}
+
+@media screen and (max-width: 768px) {
+	.layout__container-side {
+		display: none;
+	}
+
+	.main {
+		padding: 6px;
+	}
+}

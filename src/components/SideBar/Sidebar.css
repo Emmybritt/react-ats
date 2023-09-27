@@ -1,0 +1,51 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	height: 100%;
+	position: relative;
+	background-color: white;
+}
+.icons {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 2rem;
+	height: 40px;
+	width: 40px;
+}
+.icons2 {
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	bottom: 7rem;
+	gap: 2rem;
+}
+
+.icon__btn {
+	font-size: larger;
+	color: #565454;
+	font-weight: 700;
+}
+
+.round__circle {
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+}
+
+.first__circle {
+	background-color: #d9d9d9;
+	padding: 19px 3px;
+}
+
+.second__circle {
+	background-color: #d7e5fd;
+	color: #b1cdfd;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 12px;
+}
