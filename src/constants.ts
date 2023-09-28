@@ -34,7 +34,7 @@ export const HeaderRight = [
 	},
 	{
 		Icon: UserDeleteOutlined,
-		color: "A80000",
+		color: "#A80000",
 	},
 	{
 		Icon: UserSwitchOutlined,

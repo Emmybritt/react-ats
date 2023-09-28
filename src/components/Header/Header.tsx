@@ -39,7 +39,7 @@ const Header: FC<HeaderProps> = () => {
 			<div className="btn__icon-container">
 				{HeaderRight.map((Icon, _index: number) => (
 					<Button key={_index}>
-						<Icon.Icon />
+						<Icon.Icon style={{ color: Icon.color }} />
 					</Button>
 				))}
 				<div>
