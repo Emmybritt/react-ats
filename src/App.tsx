@@ -71,12 +71,12 @@ function App() {
 						<div className="candidate__container">
 							{candidates.map((candidate, _index: number) => (
 								<div className="candidates__content" key={_index}>
-									<Checkbox />
+									<Checkbox className="checkbox" />
 									<div className="candidate__photo">
 										{candidate.name[0]}
 										{candidate.name[1]}
 									</div>
-									<div>
+									<div className="data">
 										<p className="candidateName">{candidate.name}</p>
 										<p className="candidateLocation">{candidate.location}</p>
 										<p className="candidateDegree">{candidate.degree}</p>

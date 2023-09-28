@@ -147,4 +147,20 @@ span.label {
 	.dropdown {
 		display: none;
 	}
+	.candidates__content {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.second__card-header {
+	}
+
+	.candidates__content .data {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.checkbox {
+		display: none;
+	}
 }
